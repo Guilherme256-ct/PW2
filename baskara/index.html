@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora de Baskara</title>
+</head>
+<body>
+    <form id="form1">
+        <fieldset>
+            <div id="conta">
+                <input type="text" id="a"> x2 + <input type="text" id="b"> x+ <input type="text" id="c">
+            </div>
+            <br>
+            <div id="resultados">
+                <label for="delta">O valor de delta é: </label>
+                <input type="text" id="delta" disabled>
+
+                <label for="raiz-1">As raízes reais são: </label>
+                <input type="text" id="raiz-1" disabled>
+                <input type="text" id="raiz-2" disabled>
+                <div id="botoes">
+                    <input type="button" value="Calcular" onclick='Calcula()'>
+                    <input type="reset" value="resetar" id="resetar" onclick="document.getElementById('a').focus()">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
