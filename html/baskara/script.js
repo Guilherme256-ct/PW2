@@ -1,3 +1,4 @@
+
 function Calcula(){
     
     var aA=document.getElementById("a").value;
